@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'command_sample'
+require 'command_sample/command'
+CommandSample::Command.run(ARGV)
